@@ -1,0 +1,9 @@
+[submodule "vendor/submodules/nrepl-inspect"]
+	path = vendor/submodules/nrepl-inspect
+	url = git@github.com:vitalreactor/nrepl-inspect.git
+[submodule "vendor/submodules/ritz"]
+	path = vendor/submodules/ritz
+	url = git@github.com:pallet/ritz.git
+[submodule "vendor/submodules/fringe-helper"]
+	path = vendor/submodules/fringe-helper
+	url = git@github.com:nschum/fringe-helper.el.git

@@ -1,0 +1,7 @@
+(live-add-pack-lib "ritz-nrepl")
+(live-add-pack-lib "fringe-helper")
+(require 'nrepl-ritz)
+(define-key nrepl-interaction-mode-map (kbd "C-c C-j") 'nrepl-javadoc)
+(define-key nrepl-mode-map (kbd "C-c C-j") 'nrepl-javadoc)
+(define-key nrepl-interaction-mode-map (kbd "C-c C-a") 'nrepl-apropos)
+(define-key nrepl-mode-map (kbd "C-c C-a") 'nrepl-apropos)
